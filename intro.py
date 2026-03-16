@@ -1,0 +1,21 @@
+firstname = input("What is your first name?: ")
+lastname = input("what is your last name?: ")
+location = input("Where do you live?: ")
+language = input("What is your native language?: ")
+work = input("Where do you work?: ")
+college = input("Where did you attend college?: ")
+favoritehobby = input("What is your favorite hobby?: ")
+programminglanguage = input("What is your prefered programming language?: ")
+
+
+
+print("\n----- USER PROFILE -----")
+print("Firstname: " + firstname)
+print("Lastname: " + lastname)
+print("Location: " + location)
+print("Language: " + language)
+print("Employed at: " + work)
+print("Attended College at" + college)
+print("Favorite hobby: " + favoritehobby)
+print("Favorite Programming Language: " + programminglanguage)
+print("\n----- NICE TO MEET YOU! -----")
